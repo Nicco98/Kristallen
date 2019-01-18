@@ -14,6 +14,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+	 position: relative;
+    min-height: 100%;
 }
 
 /*
@@ -96,7 +98,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
 
 article.hemma {
 	width:60%;
@@ -105,6 +111,9 @@ article.hemma {
 	margin 0 auto;
 	padding 25px;
 	float: left;
+	text-align:center;
+	color: white;
+	font-size: 20px
 }
 
  rightnav{
@@ -123,7 +132,7 @@ aside.feature {
 }
 aside.fillleft {
 	width: 5%;
-	height: 800px;
+	height: 400px;
 	float: left;
 }
 aside.fillright {
@@ -145,8 +154,26 @@ ol.Tabinf{
   background-color: #333;
   float: center;
 }
+footer {
+	text.align: center;
+	padding: 60px;
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+    right: 0;
+	overflow: hidden;
+}
+.pageContentWrapper{
+  margin-bottom:100px;
 
-
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -40px;
+}
 
 
 
