@@ -99,7 +99,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    margin: 0 0 100px;
+    margin: 0 0 0px;
     /* bottom = footer height */
 }
 
@@ -110,27 +110,36 @@ body {
  outline:#000 dotted:
  box-shadow: 1px 1px 5px 1px #353535;
 }
+#tab1
+{
+height: 500px;
+width: 100%;
 
-.mainPic {
-	width: 100%
-	padding: 0px;
-	border-bottom: 5px;
+}
+#tab2
+{
+height: 400px;
+width: 100%;
+background-color: #333;
+
+}
+
+section.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../KristallenHus.jpg");
+  height: 700px;
+  width: 100%;
 }
 aside.fillleft {
 	width: 5%;
-	height: 400px;
+	height: 100%;
 	float: left;
 }
 aside.fillright {
 	width: 5%;
-	height: 800px;
+	height: 100%;
 	float: right;
-}
-ol.Tabinf{
-	height: 380px
-	box-shadow: 1px 1px 5px 1px #353535;
-	text.align: center;
-	font-size: 20px;
 }
  ul.topborder {
   list-style-type: none;
@@ -155,12 +164,12 @@ footer {
 	overflow: hidden;
 }
 */
+
+
 .pageContentWrapper{
-  margin-bottom:100px;
 
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -40px;
 }
 
 
