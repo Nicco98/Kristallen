@@ -101,20 +101,8 @@ textarea {
 body {
     margin: 0 0 100px;
     /* bottom = footer height */
-    padding: 25px;
 }
 
-article.hemma {
-	width:60%;
-	height:400px;
-	box-shadow: 1px 1px 5px 1px #353535;
-	margin 0 auto;
-	padding 25px;
-	float: left;
-	text-align:center;
-	color: white;
-	font-size: 20px
-}
 
  rightnav{
  float:right;   
@@ -123,12 +111,10 @@ article.hemma {
  box-shadow: 1px 1px 5px 1px #353535;
 }
 
-aside.feature {
-  width: 25% ;
-  float: right;
-  display: inline;
-  height:400px;
-  box-shadow: 1px 1px 5px 1px #353535;
+.mainPic {
+	width: 100%
+	padding: 0px;
+	border-bottom: 5px;
 }
 aside.fillleft {
 	width: 5%;
@@ -154,6 +140,7 @@ ol.Tabinf{
   background-color: #333;
   float: center;
 }
+/*
 footer {
 	text.align: center;
 	padding: 60px;
@@ -167,6 +154,7 @@ footer {
     right: 0;
 	overflow: hidden;
 }
+*/
 .pageContentWrapper{
   margin-bottom:100px;
 
