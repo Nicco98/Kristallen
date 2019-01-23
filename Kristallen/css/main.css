@@ -16,6 +16,10 @@ html {
     line-height: 1.4;
 	 position: relative;
     min-height: 100%;
+	background-image: url("../KristallenHus.jpg");
+      background-position: center;
+  background-size: cover;
+    
 }
 
 /*
@@ -112,14 +116,14 @@ body {
 }
 #experience
 {
-height: 500px;
+height: 700px;
 width: 100%;
 color: black;
 
 }
 #showcase
 {
-height: 400px;
+height: 600px;
 width: 100%;
 background-color: White;
 color:  black;
