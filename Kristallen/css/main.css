@@ -150,6 +150,8 @@ aside.fillright {
   overflow: hidden;
   background-color: #333;
   float: center;
+  background-position: center;
+  background-size: cover;
 }
 
 #footer {
