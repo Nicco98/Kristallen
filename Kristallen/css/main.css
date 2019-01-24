@@ -131,11 +131,7 @@ color:  black;
 }
 
 section.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("../KristallenHus.jpg");
-  height: 700px;
-  width: 100%;
+
 }
 aside.fillleft {
 	width: 5%;
@@ -154,6 +150,8 @@ aside.fillright {
   overflow: hidden;
   background-color: #333;
   float: center;
+  background-position: center;
+  background-size: cover;
 }
 
 #footer {
@@ -172,7 +170,9 @@ aside.fillright {
 
 
 .pageContentWrapper{
-
+  background-image: url("../KristallenHus.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
 }
